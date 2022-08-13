@@ -1,0 +1,31 @@
+Question 1: MCQ:
+1- what are the best examples of void elements?
+        b- <br><base><source>
+2- where do <header> and <footer> tags typically occur?
+	b- as children of <body>, <article>, and <section> tags
+3- what is the purpose of the id attribute?
+	a- It establishes that id is a unique identifier in the document, used for styling CSS, scripting,
+	and linking within a webpage.
+4- which choice is NOT a legal value for the name attribute within a <meta> tag?
+	a- charset
+5- which choice is not legal type attribute for the <input> tag?
+	d- <input type="num">
+6- which selector has the highest specificity ranking for selecting the anchor link element?
+	a- ul li a
+
+Question 2:
+1- in the shorthand example below, which individual background properties are represented?
+   background: blue url(image.jpg) no-repeat scroll 0px 0px;
+	<== background-color, background-image, background-repeat, background-attachment, background-size
+2- in the following example, according to cascading and specificity rules, what color will the link be?
+	<== yellow
+3- in the following example, what color wil paragraph one and paragraph two be?
+	<== the first paragraph will be red and the second paragraph will be blue
+4- in the example below, when will the color pink be applied to the anchor element?
+	<== while the user is pressing on the anchor element
+
+
+
+
+
+
