@@ -1,0 +1,56 @@
+1 - 
+    undefined // because the first 5 indexes(0, ..., 4) in the array(object) are empty
+    object // because there's no Array datatype in Javascript
+    [empty * 5, 5, 0, 1, 2, 3, 4] // empty *5 because we initiated the array(object) with 5 empty indexes(0, ..., 4)
+    apple // because shift removes the first item of the array(object)
+
+2 -
+    // car of newCars refers to the item itself and therefor when using newCars[car] returns undefined
+    Fiat
+    undefined
+    Kia
+    undefined
+    Volvo
+    undefined
+    Mercedes
+    undefined
+    // car in newCars refers to a number from 0 to the length of the array(object) - 1
+    Fiat
+    0
+    Kia
+    1
+    Volvo
+    2
+    Mercedes
+    3
+
+3 - 
+    0 // val++ returns the value of val and then does the increment
+    1
+
+4 - 
+    boolean
+    String
+
+5 - Error: i is not defined
+
+6 - 6
+
+7 - Welcome undefined
+
+8 - 
+    undefined
+    Welcome
+
+9 - 
+    0
+    1
+    4
+    2
+    3
+
+10 - 
+    0
+    false
+    11
+
