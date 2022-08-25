@@ -1,0 +1,178 @@
+/* Add Encoding */
+@charset "UTF-8";
+/* Reset Page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+body{
+    font-family: 'DynaPuff', cursive;
+}
+ol, ul{list-style: none;}
+a{text-decoration: none; color: #ffffff;}
+.container{
+    display: flex;
+    width: 75%;
+    margin: 0 auto; 
+}
+
+/* 
+    Navbar Style 
+*/
+.navbar{
+    background-color: #171717;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.navbar .brand{
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+.navbar .brand a{
+    color: #FEDCDB;
+}
+.navbar .navbar-container{
+    justify-content: space-between;
+}
+.navbar .navbar-items ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+.navbar .navbar-items ul li a{
+    font-size: 20px;
+    color: #FEDCDB;
+}
+.navbar .navbar-items ul li a:hover,
+.navbar .brand a:hover{
+    color: #EC275F;
+}
+
+/* 
+    head
+*/
+section{
+    width: 100%;
+    height: 580px;
+}
+.head{
+    background-image: url(../images/workspace.jpg);
+    background-size: cover;
+}
+section .container{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.4rem;
+    color: #FFA7A6;
+}
+.self-pic-div{
+    width: 30%;
+}
+.self-pic-div img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* 
+    about
+*/
+.about{
+    background-color: #EC275F;
+    line-height: 1.5;
+}
+.about-paragraph{
+    width: 70%;
+    font-size: 2rem;
+    color: #171717;
+}
+.about-paragraph p{
+    font-size: 1.8rem;
+}
+.about-pic-div{
+    width: 25%;
+}
+.about-pic-div img{
+    width: 100%;
+    height: 70%;
+    border-radius: 30px;
+}
+
+/* 
+    services
+*/
+.services{
+    background-color: #ffffff;
+    line-height: 1.5;   
+}
+.services .container{
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.services .container h2{
+    color: #FFA7A6;
+    align-items: center;
+    margin-top: 5%;
+}
+.services .container ul li{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1% 15% 1%;    
+}
+.services .container ul li:nth-child(2){
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.services .container ul li h3{
+    font-size: 1.5rem;
+    color: #171717;
+}
+.services .container ul li p{
+    font-size: 1rem;
+    color: #171717;
+    
+}
+/* 
+    portfolio
+*/
+.portfolio{
+    background-color: #FFA7A6;
+    /* background-color: #FEDCDB; */
+}
+
+
+
+
+/* 
+    contact
+*/
+.contact{
+    background-color: #EC275F;
+}
+.contact .contact-items{
+    width: 70%;
+    font-size: 1.8rem;
+    color: #171717;
+}
+.contact .contact-items h2{
+    margin-bottom: 5%;
+}
+.contact .contact-items a i{
+    width: 5%;
+    height: 5%;
+}
+.contact-vid-div{
+    width: 25%;
+}
+.contact-vid-div video{
+    width: 100%;
+    height: 70%;
+    border-radius: 30px;
+}
